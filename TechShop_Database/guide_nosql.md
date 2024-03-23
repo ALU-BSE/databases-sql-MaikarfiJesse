@@ -29,8 +29,8 @@ Let's insert some documents into our collections.
 
 ```javascript
 db.Users.insert({
-    name: 'John Doe',
-    email: 'john.doe@example.com',
+    name: 'Jesse Josh',
+    email: 'jesse.josh@example.com',
     password: 'password123'
 });
 
@@ -58,8 +58,8 @@ You can update documents in your collections using the `update` method.
 
 ```javascript
 db.Users.update(
-    { name: 'John Doe' },
-    { $set: { email: 'john.new@example.com' } }
+    { name: 'Jesse Josh' },
+    { $set: { email: 'jesse.new@example.com' } }
 );
 ```
 
@@ -68,7 +68,7 @@ db.Users.update(
 You can delete documents from your collections using the `remove` method.
 
 ```javascript
-db.Users.remove({ name: 'John Doe' });
+db.Users.remove({ name: 'Jesse Josh' });
 ```
 
 ## Indexing
