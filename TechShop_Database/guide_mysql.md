@@ -44,8 +44,8 @@ Let's insert some data into our tables.
 
 ```sql
 INSERT INTO Authors (Name, Email)
-VALUES ('John Doe', 'john.doe@example.com'),
-       ('Jane Doe', 'jane.doe@example.com');
+VALUES ('Jesse Josh', 'jesse.josh@example.com'),
+       ('Joe Jerry', 'joe.jerry@example.com');
 
 INSERT INTO Books (Title, AuthorID, PublishedYear)
 VALUES ('Book 1', 1, 2000),
@@ -68,8 +68,8 @@ You can update data in your tables using the `UPDATE` statement.
 
 ```sql
 UPDATE Authors
-SET Email = 'john.new@example.com'
-WHERE Name = 'John Doe';
+SET Email = 'jesse.new@example.com'
+WHERE Name = 'Jesse Josh';
 ```
 
 ## Deleting Data
@@ -78,7 +78,7 @@ You can delete data from your tables using the `DELETE` statement.
 
 ```sql
 DELETE FROM Authors
-WHERE Name = 'Jane Doe';
+WHERE Name = 'Joe Jerry';
 ```
 
 ## Creating Indexes
