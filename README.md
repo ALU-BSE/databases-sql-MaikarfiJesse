@@ -40,13 +40,13 @@ In MongoDB, you can use the `insert()`, `update()`, and `remove()` functions res
 
 ```javascript
 // Insert
-db.collection('Customers').insert({ name: 'John', email: 'john@example.com' });
+db.collection('Customers').insert({ name: 'Jesse', email: 'jesse@example.com' });
 
 // Update
-db.collection('Customers').update({ name: 'John' }, { $set: { email: 'john_new@example.com' } });
+db.collection('Customers').update({ name: 'Jesse' }, { $set: { email: 'jesse_new@example.com' } });
 
 // Delete
-db.collection('Customers').remove({ name: 'John' });
+db.collection('Customers').remove({ name: 'Jesse' });
 ```
 
 ## Using MongoDB
