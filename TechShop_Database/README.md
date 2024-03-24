@@ -211,3 +211,7 @@ To use MongoDB, you need to install it on your machine and use a MongoDB client 
 9. **Use Compression**: Some NoSQL databases support compression of data. Compression can reduce the amount of storage used and can also improve I/O efficiency.
 
 10. **Regularly Update Statistics**: Similar to SQL databases, NoSQL databases also use statistics about the distribution of data. Regularly updating these statistics can help the database make better decisions about query planning and execution.
+
+**Draw a diagram to visualize the schema**
+
+![TechShop Schema](https://github.com/ALU-BSE/databases-sql-MaikarfiJesse/assets/99619280/9fbc9029-7626-4c6e-99bb-08a957cab323)
